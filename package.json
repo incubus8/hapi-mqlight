@@ -1,0 +1,27 @@
+{
+  "name": "hapi-mqlight",
+  "version": "1.0.0",
+  "description": "HapiJS Plugin for IBM MqLight",
+  "main": "index.js",
+  "scripts": {
+    "clean": "yarn clean && rm -fr node_modules",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "standard | snazzy",
+    "lint:fix": "standard --fix | snazzy"
+  },
+  "author": "Rheza Satria",
+  "license": "MIT",
+  "devDependencies": {
+    "snazzy": "^6.0.0",
+    "standard": "^9.0.1"
+  },
+  "peerDependencies": {
+    "hapi": ">=16.0.0"
+  },
+  "dependencies": {
+    "generic-pool": "^3.1.7",
+    "hoek": "^4.1.0",
+    "joi": "^10.2.2",
+    "mqlight": "^2.0.2016111400"
+  }
+}

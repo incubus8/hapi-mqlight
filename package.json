@@ -1,7 +1,11 @@
 {
   "name": "hapi-mqlight",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "HapiJS Plugin for IBM MqLight",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/incubus8/hapi-mqlight.git"
+  },
   "main": "index.js",
   "scripts": {
     "clean": "yarn clean && rm -fr node_modules",
@@ -23,5 +27,8 @@
     "hoek": "^4.1.0",
     "joi": "^10.2.2",
     "mqlight": "^2.0.2016111400"
+  },
+  "engines": {
+    "node": ">=6.10.0"
   }
 }

@@ -12,9 +12,13 @@ Hapu-MqLight will shine your light, a plugin for HapiJS for IBM Mqlight
 
 ## TODO
 
-[ ] Document usage
-[ ] Connection pooling when send message
+- [ ] Document usage
+- [ ] Connection pooling when send message
 
-## Maintainer
 
-Rheza Satria, [Jenius](https://www.jenius.com) isn't?
+---
+
+Made with love in Jakarta
+
+by
+ Rheza Satria, [Jenius](https://www.jenius.com) isn't?

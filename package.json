@@ -1,6 +1,6 @@
 {
   "name": "hapi-mqlight",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "HapiJS Plugin for IBM MqLight",
   "repository": {
     "type": "git",
